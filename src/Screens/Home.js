@@ -6,6 +6,7 @@ export default function Home({ navigation }) {
     <View style={styles.container}>
       <Button title="Humano X Humano" onPress={() => navigation.navigate('VsHumano')} />
       <Button title="Humano X Máquina" onPress={() => navigation.navigate('VsMaquina')} />
+        <Button title= "Conversão" onPress={() => navigation.navigate('Conversao')}></Button>
     </View>
   );
 }
